@@ -1,0 +1,26 @@
+.show-info {
+	display: none;
+}
+
+.prototype-chain {
+	word-break: break-word;
+}
+
+@media (max-width: 415px)
+{
+	.show-info {
+		display: block;
+	}
+	
+	.info {
+		display: none
+	}
+	
+	h1 {
+		font-size: 25px;
+	}
+	
+	p, li {
+		font-size: 15px;
+	}
+}
